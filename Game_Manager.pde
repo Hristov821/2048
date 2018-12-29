@@ -82,7 +82,6 @@ class Game_Manager {
         this.spawn();
         this.spawn();
         display_grid();
-        display_grid();
       } else if (choice.equals("Exit")) {
         exit();
       }
