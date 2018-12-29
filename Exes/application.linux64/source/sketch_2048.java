@@ -205,6 +205,8 @@ class Game_Manager {
       else if (choice.equals("New Game")) {
         initialize_grid();
         score.value = 0;
+        this.spawn();
+        this.spawn();
         display_grid();
       } else if (choice.equals("Exit")) {
         exit();
@@ -218,6 +220,9 @@ class Game_Manager {
       else if (choice.equals("New Game")) {
         initialize_grid();
         score.value = 0;
+        this.spawn();
+        this.spawn();
+        display_grid();
       } 
       else if (choice.equals("Continue")) {
         max_block = -1;
